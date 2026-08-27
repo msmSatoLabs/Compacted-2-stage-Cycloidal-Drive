@@ -10,6 +10,7 @@ The project explores the design, manufacturing, and control of a high-ratio tran
 
 > **Current status:** Mechanical assembly completed and connected to the BLDC motor. The theoretical reduction ratio is **121:1**, although the actual reduction ratio has not yet been experimentally verified. It is currently mounted to a bracket that will serve as the base joint of a robotic arm.
 
+**Check out MEDIA.md to see my developing process of the cycloidal drive!
 ---
 
 ## Project Overview
