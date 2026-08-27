@@ -4,7 +4,7 @@ A custom-designed, 3D-printed two-stage cycloidal drive developed as the transmi
 
 The project explores the design, manufacturing, and control of a high-ratio transmission capable of converting the high-speed, relatively low-torque output of a BLDC motor into the high-torque, low-speed motion required for a robotic arm.
 
-> **Current status:** Mechanical assembly completed and connected to the BLDC motor. The theoretical reduction ratio is **121:1**, although the actual reduction ratio has not yet been experimentally verified.
+> **Current status:** Mechanical assembly completed and connected to the BLDC motor. The theoretical reduction ratio is **121:1**, although the actual reduction ratio has not yet been experimentally verified. It is currently mounted to a bracket that will serve as the base joint of a robotic arm.
 
 ---
 
@@ -74,12 +74,6 @@ The first stage receives the high-speed input from the BLDC motor and produces a
 
 The second stage further reduces this motion and produces the final output.
 
-The theoretical overall reduction is:
-
-[
-\boxed{121:1}
-]
-
 The drive uses a nontraditional architecture in which the **outer ring assembly of the second stage acts as the final output**, rather than using the central cycloidal disc as the conventional output member.
 
 This allows the second stage to act as a coupler between the first stage and the final output, but also creates additional requirements for maintaining concentricity and structural stability.
@@ -88,11 +82,7 @@ This allows the second stage to act as a coupler between the first stage and the
 
 # Reduction Ratio
 
-The target reduction ratio was designed to be:
-
-[
-121:1
-]
+The target reduction ratio was designed to be 121:1
 
 The two-stage configuration was selected to achieve this ratio while keeping the number of rollers and individual components manageable.
 
@@ -190,7 +180,7 @@ This distributes the radial load around the gearbox while keeping the components
 
 **Flipsky 6374 BLDC**
 
-Manufacturer-listed specifications include:
+Specifications:
 
 * Maximum power: 3250 W
 * Maximum current: 85 A
@@ -205,11 +195,33 @@ Manufacturer-listed specifications include:
 
 ### Motor Controller
 
-**ODESC v4.7**
+**ODESC v4.2**
+
+Specifications:
+
+* Working Voltage: 8V–56V (56V model)
+* Continuous Current: 70AMaximum
+* Peak Current: 120A
+* Microprocessor: STM32F405RGT6
+* Supported Motor Type: Brushless DC motor (BLDC) / FOC
+* Braking Methods: Power resistors and battery energy recycling
+* Physical Dimensions: 63mm × 58mm × 30mm
+* Weight: 70g
 
 ### Encoder
 
-**AS5047P
+**AS5047P**
+
+Specifications:
+
+* Type: 14-bit magnetic rotary position sensor
+* Resolution: 16,384 positions per rotation
+* Speed: Operates up to 28,000 RPM
+* Accuracy: Max 0.34-degree error
+* Voltage: 3.3V or 5V operation
+* Outputs: SPI, ABI, UVW, and PWM
+* Package: 14-pin TSSOP.
+
 
 ### Shaft
 
@@ -327,6 +339,8 @@ Inspired by https://www.researchgate.net/publication/235992854_A_New_Design_of_a
 **Date:** May - July 2026
 
 The complete mechanical gearbox has been assembled and connected to the BLDC motor.
+
+The cycloidal drive itself has been mounted onto a bracket that will be used for the robotic arm.
 
 The theoretical reduction ratio is **121:1**, but the actual ratio has not yet been experimentally characterized.
 
