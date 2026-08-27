@@ -38,7 +38,7 @@ The gearbox was designed, parametrically modeled, 3D printed, assembled, and con
 | Fasteners                    |  M3-M6 screws + heat-set inserts |
 
 <!-- PHOTO: Side-by-side or annotated shot of the gearbox next to the BLDC motor for scale -->
-<img src="images/overview-scale.jpg" alt="Gearbox mounted to BLDC motor, scale reference" width="700">
+<img width="636" height="505" alt="image" src="https://github.com/user-attachments/assets/1bf37149-86c5-4ef1-a1e8-e0a85faa9a9a" />
 
 ---
 
@@ -283,7 +283,7 @@ The printed components required significant post-processing, including:
 * Assembly and alignment
 
 <!-- PHOTO: Printed parts fresh off the printer / mid post-processing (support removal, sanding, etc.) -->
-<img src="images/manufacturing-postprocess.jpg" alt="3D printed components during post-processing" width="700">
+<img width="825" height="552" alt="image" src="https://github.com/user-attachments/assets/924c2413-1c1c-468b-80c0-cd8e99999758" />
 
 ---
 
