@@ -387,6 +387,7 @@ The theoretical reduction ratio is **121:1**, but the actual ratio has not yet b
 
 <!-- PHOTO: Final assembled prototype mounted on the robotic arm base bracket — this is likely your best "money shot" -->
 <img width="5712" height="4284" alt="IMG_9543" src="https://github.com/user-attachments/assets/79df8333-416f-4b2a-8f23-640c26adfa3a" />
+<img width="5712" height="4284" alt="IMG_9545" src="https://github.com/user-attachments/assets/d6e6e55e-a46b-43b3-a600-415e0b81c07c" />
 
 ### Remaining characterization
 
