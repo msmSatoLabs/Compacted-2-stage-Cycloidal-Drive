@@ -400,7 +400,7 @@ Inspired by ["A New Design of a Two-Stage Cycloidal Speed Reducer"](https://www.
 
 ## 5. Current Prototype
 
-**Date:** May - July 2026
+**Date:** August 2026
 
 The complete mechanical gearbox has been assembled and connected to the BLDC motor.
 
