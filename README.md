@@ -5,7 +5,7 @@ A custom-designed, 3D-printed two-stage cycloidal drive developed as the transmi
 The project explores the design, manufacturing, and control of a high-ratio transmission capable of converting the high-speed, relatively low-torque output of a BLDC motor into the high-torque, low-speed motion required for a robotic arm.
 
 <!-- PHOTO: Hero shot — full assembled gearbox, clean background, this is the first thing a viewer sees -->
-<img src="images/hero.jpg" alt="Assembled two-stage cycloidal drive" width="700">
+<img width="5712" height="4284" alt="IMG_9543" src="https://github.com/user-attachments/assets/79df8333-416f-4b2a-8f23-640c26adfa3a" />
 
 > **Current status:** Mechanical assembly completed and connected to the BLDC motor. The theoretical reduction ratio is **121:1**, although the actual reduction ratio has not yet been experimentally verified. It is currently mounted to a bracket that will serve as the base joint of a robotic arm.
 
@@ -85,7 +85,8 @@ The drive uses a nontraditional architecture in which the **outer ring assembly 
 This allows the second stage to act as a coupler between the first stage and the final output, but also creates additional requirements for maintaining concentricity and structural stability.
 
 <!-- PHOTO: Exploded CAD render of the full two-stage architecture, labeled stage 1 / stage 2 / output ring -->
-<img src="images/architecture-exploded.jpg" alt="Exploded view of two-stage cycloidal architecture" width="700">
+<img width="1297" height="595" alt="image" src="https://github.com/user-attachments/assets/ec175051-fa9e-47f5-aa16-cfd865bc0f03" />
+
 
 ---
 
@@ -143,7 +144,7 @@ The measured ratio may differ from the theoretical value due to:
 * Incorrect assumptions in the theoretical model
 
 <!-- PHOTO: Close-up of a single cycloidal disc showing the lobe profile -->
-<img src="images/cycloidal-disc-closeup.jpg" alt="Cycloidal disc lobe profile close-up" width="700">
+<img width="697" height="672" alt="image" src="https://github.com/user-attachments/assets/7680f000-972b-4062-b881-aa6c26bdce41" />
 
 ---
 
@@ -169,7 +170,7 @@ The parametric approach allows the cycloidal profile to be regenerated when chan
 This was particularly useful during the iterative development process because changes to the gearbox geometry could be propagated without manually rebuilding the cycloidal profile.
 
 <!-- PHOTO: Screenshot of the parametric CAD (Onshape) showing the driving dimensions/variables table -->
-<img src="images/parametric-cad.jpg" alt="Parametric CAD model of cycloidal profile" width="700">
+<img width="1520" height="1045" alt="image" src="https://github.com/user-attachments/assets/16083b61-dbbd-4dcd-a8be-b8aedd7f3238" />
 
 ---
 
@@ -186,7 +187,7 @@ Instead, the design uses **multiple smaller bearings distributed around the circ
 This distributes the radial load around the gearbox while keeping the components relatively inexpensive and accessible.
 
 <!-- PHOTO: Bearing ring layout — components before assembly, or CAD cross-section showing bearing placement -->
-<img src="images/bearing-layout.jpg" alt="Distributed bearing layout around gearbox circumference" width="700">
+<img width="5712" height="4284" alt="IMG_9543" src="https://github.com/user-attachments/assets/5c14fcfb-f5b4-496c-99ab-e069f808d559" />
 
 ---
 
@@ -195,6 +196,8 @@ This distributes the radial load around the gearbox while keeping the components
 ### Motor
 
 **Flipsky 6374 BLDC**
+
+<img width="447" height="447" alt="image" src="https://github.com/user-attachments/assets/c555d061-80af-46ba-9df5-f13fc65d6d94" />
 
 Specifications:
 
@@ -213,6 +216,9 @@ Specifications:
 
 **ODESC v4.2**
 
+<img width="447" height="447" alt="image" src="https://github.com/user-attachments/assets/f9864b3b-58b0-46a8-90ba-22b74978f55f" />
+
+
 Specifications:
 
 * Working Voltage: 8V–56V (56V model)
@@ -228,6 +234,8 @@ Specifications:
 
 **AS5047P**
 
+<img width="1500" height="1494" alt="image" src="https://github.com/user-attachments/assets/c444ddcb-6b1c-4ea4-beab-c6636e871a1c" />
+
 Specifications:
 
 * Type: 14-bit magnetic rotary position sensor
@@ -237,15 +245,17 @@ Specifications:
 * Voltage: 3.3V or 5V operation
 * Outputs: SPI, ABI, UVW, and PWM
 * Package: 14-pin TSSOP
-
 <!-- PHOTO: Motor + controller + encoder laid out together, or wired/mounted on the bench -->
-<img src="images/electronics-layout.jpg" alt="BLDC motor, ODESC controller, and AS5047P encoder" width="700">
+<img width="1272" height="707" alt="image" src="https://github.com/user-attachments/assets/6e14209f-ea3c-4f7e-b463-f798011c777e" />
+
 
 ### Shaft
 
 A segmented shaft printed out of PETG is used to transmit torque between the motor and gearbox. The segmented pieces snap-fit to each other and are further reinforced via screws.
 
-A keyed connection was selected to provide positive mechanical torque transmission rather than relying solely on friction, and to assemble easily with the motor's shaft.
+<img width="702" height="912" alt="image" src="https://github.com/user-attachments/assets/37619f0d-c1c9-4f36-be0c-79903e2ff1d5" />
+
+A keyed connection was selected to provide positive mechanical torque transmission rather than relying solely on friction, and to slide easily onto the motor's shaft.
 
 ### Fasteners
 
@@ -253,9 +263,6 @@ A keyed connection was selected to provide positive mechanical torque transmissi
 * M2-M6 heat-set threaded inserts
 * M3-M6 nuts and washers
 * M3 and M6 Nylon Locknuts
-
-Heat-set inserts provide reusable threaded connections in the 3D-printed components.
-
 ---
 
 # Manufacturing
@@ -264,7 +271,7 @@ The prototype was primarily manufactured using **FDM 3D printing**.
 
 PETG was used for the initial prototype because of its accessibility and relatively good mechanical properties.
 
-Carbon-fiber reinforced nylon and PETG was also investigated as a potential material for higher-performance components, specifically for the cycloidal discs and shaft components.
+Carbon-fiber reinforced nylon and PETGCF20 was also investigated as a potential material for higher-performance components, specifically for the cycloidal discs and shaft components.
 
 The printed components required significant post-processing, including:
 
@@ -293,7 +300,7 @@ This introduced alignment issues with the base piece alignment.
 The problem was partially corrected through sanding, but it also demonstrated the limitations of relying on large FDM surfaces for precision alignment when printing with supports.
 
 <!-- PHOTO: The flatness issue itself — e.g. a gap/light-gap photo between the two ring gear halves, or a warped part -->
-<img src="images/flatness-issue.jpg" alt="Ring gear surface flatness issue" width="700">
+<img width="2048" height="1536" alt="flatness" src="https://github.com/user-attachments/assets/05fdaaf0-612d-4539-b593-2a19ae678f31" />
 
 ### Bearing installation
 
@@ -335,7 +342,7 @@ Inspired by ["A New Design of a Two-Stage Cycloidal Speed Reducer"](https://www.
 * Developed the two-stage architecture
 
 <!-- PHOTO: Early CAD screenshots from this phase, if you have version history / earlier iterations saved -->
-<img src="images/early-cad.jpg" alt="Early CAD development of cycloidal geometry" width="700">
+<img width="1086" height="947" alt="image" src="https://github.com/user-attachments/assets/02976fd0-54f0-4e32-be57-a97446dc3f08" />
 
 ---
 
@@ -351,7 +358,7 @@ Inspired by ["A New Design of a Two-Stage Cycloidal Speed Reducer"](https://www.
 * Iterated parts many times, especially when integrating the motor into the build
 
 <!-- PHOTO: Print-in-progress shot, and/or a "part iteration" comparison photo (v1 vs v2 vs final) -->
-<img src="images/print-iterations.jpg" alt="3D printing and part iteration comparison" width="700">
+<img width="3024" height="4032" alt="3D printing a cycloidal disc" src="https://github.com/user-attachments/assets/2c6a8c32-ebf7-43b2-b3c4-8094ff4ef2cd" />
 
 ---
 
@@ -364,7 +371,7 @@ Inspired by ["A New Design of a Two-Stage Cycloidal Speed Reducer"](https://www.
 * Ran motor with closed-loop PID
 
 <!-- PHOTO: Soldering/wiring in progress, or the motor spinning under control on the bench -->
-<img src="images/wiring-motor-bench.jpg" alt="Wiring and bench testing the BLDC motor" width="700">
+<img width="1017" height="722" alt="image" src="https://github.com/user-attachments/assets/f1581e30-6ec5-40d5-9e73-5bcb8b808c4c" />
 
 ---
 
@@ -379,7 +386,7 @@ The cycloidal drive itself has been mounted onto a bracket that will be used for
 The theoretical reduction ratio is **121:1**, but the actual ratio has not yet been experimentally characterized.
 
 <!-- PHOTO: Final assembled prototype mounted on the robotic arm base bracket — this is likely your best "money shot" -->
-<img src="images/final-prototype-mounted.jpg" alt="Completed gearbox mounted on robotic arm base bracket" width="700">
+<img width="5712" height="4284" alt="IMG_9543" src="https://github.com/user-attachments/assets/79df8333-416f-4b2a-8f23-640c26adfa3a" />
 
 ### Remaining characterization
 
