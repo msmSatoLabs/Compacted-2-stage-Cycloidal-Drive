@@ -495,8 +495,11 @@ This project combines several areas of engineering:
 
 **Motor integration: COMPLETE**
 
-**Theoretical reduction: 121:1**
-
 **Experimental characterization: IN PROGRESS**
 
 **Integration into robotic arm: IN PROGRESS**
+
+**Current CAD Model as of 8/30/26:**
+<p align="center">
+<img width="910" height="638" alt="image" src="https://github.com/user-attachments/assets/2d3cfad0-d1ae-4bea-b9f9-c32c8894147a" />
+<p/>
