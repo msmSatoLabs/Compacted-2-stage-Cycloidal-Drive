@@ -166,6 +166,10 @@ The cycloidal discs were generated parametrically using the primary design param
 * Stage 1 rollers: **12**
 * Stage 1 lobes: **11**
 
+<p align="center">
+  <img width="75%" alt="Parametric CAD model of cycloidal profile" src="https://github.com/user-attachments/assets/16083b61-dbbd-4dcd-a8be-b8aedd7f3238" />
+</p>
+
 The parametric approach allows the cycloidal profile to be regenerated when changing:
 
 * Number of rollers
@@ -181,11 +185,6 @@ The parametric approach allows the cycloidal profile to be regenerated when chan
 *Stage 2 Reduction*
 
 This was particularly useful during the iterative development process because changes to the gearbox geometry could be propagated without manually rebuilding the cycloidal profile.
-
-<p align="center">
-  <img width="75%" alt="Parametric CAD model of cycloidal profile" src="https://github.com/user-attachments/assets/16083b61-dbbd-4dcd-a8be-b8aedd7f3238" />
-</p>
-
 ---
 
 # Bearing System
