@@ -165,6 +165,38 @@ The cycloidal discs were generated parametrically using the primary design param
 * Eccentricity: **3 mm**
 * Stage 1 rollers: **12**
 * Stage 1 lobes: **11**
+* Stage 2 rollers: **11**
+* Stage 2 lobes: **10**
+
+With these, the following parametric equations were then used to generate the profile of the cycloidal drives:
+
+$$
+x(t) =
+R\cos(t) -
+R_r\cos\left(
+t+
+\arctan\left(
+\frac{\sin((1-N)t)}
+{\frac{R}{EN}-\cos((1-N)t)}
+\right)
+\right) -
+E\cos(Nt)
+$$
+
+$$
+y(t) =
+-R\sin(t)
++
+R_r\sin\left(
+t+
+\arctan\left(
+\frac{\sin((1-N)t)}
+{\frac{R}{EN}-\cos((1-N)t)}
+\right)
+\right)
++
+E\sin(Nt)
+$$
 
 <p align="center">
   <img width="75%" alt="Parametric CAD model of cycloidal profile" src="https://github.com/user-attachments/assets/16083b61-dbbd-4dcd-a8be-b8aedd7f3238" />
