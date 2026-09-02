@@ -175,6 +175,11 @@ The parametric approach allows the cycloidal profile to be regenerated when chan
 * Reduction ratio
 * Manufacturing tolerances
 
+<img width="893" height="788" alt="image" src="https://github.com/user-attachments/assets/bde15819-0750-4a92-99d5-8f6896092f18" />
+*Stage 1 Reduction*
+<img width="980" height="790" alt="image" src="https://github.com/user-attachments/assets/dac59413-becc-4be4-bd84-1febd4faef5a" />
+*Stage 2 Reduction*
+
 This was particularly useful during the iterative development process because changes to the gearbox geometry could be propagated without manually rebuilding the cycloidal profile.
 
 <p align="center">
